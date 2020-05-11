@@ -23,7 +23,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls.each do |item1|
     planeteer_calls.each do |item2|
       if item1 == item2
-        return true
+        return item1
       end
     end
   end
